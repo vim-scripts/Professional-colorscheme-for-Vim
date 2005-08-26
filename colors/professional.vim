@@ -1,7 +1,8 @@
 " Vim color file
 " Maintainer: iyerns <iyerns AT gmail DOT com>
 " Last Change: 25 August 2005
-" Version:1.0
+" Version:1.1
+" Changes:Fixes vert split
 " Comment: Atlast, a professional colorscheme for Vim
 " Released by popular demand. in case other highlighting 
 " terms are to be included, please feel free to add those 
@@ -21,6 +22,10 @@ endif
 let g:colors_name="professional"
 
 hi Normal   guifg=black	 guibg=white 
+hi Statusline    gui=none guibg=#006666 guifg=#ffffff
+hi  VertSplit    gui=none guibg=#006666 guifg=#ffffff
+hi StatuslineNC  gui=none guibg=#666633 guifg=#ffffff
+
 hi Title    guifg=black	 guibg=white gui=BOLD
 hi lCursor  guibg=Cyan   guifg=NONE
 hi LineNr   guifg=white guibg=#006666 
@@ -49,6 +54,5 @@ hi Keyword       guifg=#ff8088 gui=NONE
 hi Search        gui=NONE guibg=#ffff00 
 "guibg=#339900
 hi IncSearch     gui=NONE guifg=#ffff00 guibg=#990000
-hi Statusline    gui=none guibg=#006666 guifg=#ffffff
-hi StatuslineNC  gui=none guibg=#666633 guifg=#ffffff
 hi Conditional   gui=none guifg=#660000 guibg=#ffffff
+
