@@ -1,0 +1,13 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1336
+
+At last, a professional colorscheme for Vim...released by popular demand !
+
+*Highlights*
+
+* Uses light background for easy editing on bright light conditions
+* Status bar and line numbers uses dark background
+* No two highlighting terms have same colors making it easy to distinguish what you are looking at
+
+Specially suited if you spend most of your day editing and writing code
+
+Currently supports only GUI version. If there is enough demand, I will release a cterm version.
