@@ -1,8 +1,12 @@
 " Vim color file
 " Maintainer: iyerns <iyerns AT gmail DOT com>
+" 
+" Comments are welcome !
+" Spammers will be shot. Survivors will be shot again
+" 
 " Last Change: 25 August 2005
-" Version:1.1
-" Changes:Fixes vert split
+" Version:1.2
+" Changes:Supports professional colors for file browsing
 " Comment: Atlast, a professional colorscheme for Vim
 " Released by popular demand. in case other highlighting 
 " terms are to be included, please feel free to add those 
@@ -12,7 +16,6 @@
 "
 " Uses only safe HTML colors
 "
-
 
 set background=light
 hi clear
@@ -55,4 +58,5 @@ hi Search        gui=NONE guibg=#ffff00
 "guibg=#339900
 hi IncSearch     gui=NONE guifg=#ffff00 guibg=#990000
 hi Conditional   gui=none guifg=#660000 guibg=#ffffff
+hi browseDirectory  gui=none guifg=#660000 guibg=#ffffff
 
