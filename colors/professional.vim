@@ -4,9 +4,9 @@
 " Comments are welcome !
 " Spammers will be shot. Survivors will be shot again
 " 
-" Last Change: 25 August 2005
-" Version:1.2
-" Changes:Supports professional colors for file browsing
+" Last Change: 1 Sep 2005
+" Version:1.3
+" Changes: Recolored comments and Statement
 " Comment: Atlast, a professional colorscheme for Vim
 " Released by popular demand. in case other highlighting 
 " terms are to be included, please feel free to add those 
@@ -35,12 +35,12 @@ hi LineNr   guifg=white guibg=#006666
 "guibg=#8c9bfa
 
 " syntax highlighting groups
-hi Comment    gui=NONE guifg=#777777
+hi Comment    gui=NONE guifg=SteelBlue
 hi Operator   guifg=#ff0000
 
 hi Identifier guifg=#339900 gui=NONE
 
-hi Statement	 guifg=#cc9966 gui=NONE
+hi Statement	 guifg=orange gui=NONE
 hi TypeDef       guifg=#c000c8 gui=NONE
 hi Type          guifg=#0000c8 gui=NONE
 hi Boolean       guifg=#0000aa gui=NONE
