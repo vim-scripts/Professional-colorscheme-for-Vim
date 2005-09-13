@@ -4,16 +4,16 @@
 " Comments are welcome !
 " Spammers will be shot. Survivors will be shot again
 " 
-" Last Change: 1 Sep 2005
-" Version:1.3
-" Changes: Recolored comments and Statement
+" Last Change: 10 Sep 2005
+" Version:1.4
+" Changes:Changed background color for better tone 
 " Comment: Atlast, a professional colorscheme for Vim
 " Released by popular demand. in case other highlighting 
 " terms are to be included, please feel free to add those 
 " and send me your updated .vim file :) to be included in 
 " the next version.If there are enough requests, I will 
 " release a cterm version also. 
-"
+" Recolored comments and Statement
 " Uses only safe HTML colors
 "
 
@@ -24,7 +24,7 @@ if exists("syntax_on")
 endif
 let g:colors_name="professional"
 
-hi Normal   guifg=black	 guibg=white 
+hi Normal   guifg=black	 guibg=#ffffdd 
 hi Statusline    gui=none guibg=#006666 guifg=#ffffff
 hi  VertSplit    gui=none guibg=#006666 guifg=#ffffff
 hi StatuslineNC  gui=none guibg=#666633 guifg=#ffffff
